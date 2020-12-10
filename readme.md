@@ -18,7 +18,7 @@ Personalizar la ruta para enlistar archivos
 dir /a /b /-p /o:gen >C:\Users\DELL\Desktop\lisatdo.txt
 start notepad C:\Users\DELL\Desktop\listado.txt
 
-# 1. Use Powershell for folder rename <a named="id2"></a>
+# 2. Use Powershell for folder rename <a named="id2"></a>
 ```dos
 PS C:\FolderPath> REN 'OldName.pdf' 'NewName.pdf'
 ```
