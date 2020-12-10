@@ -18,7 +18,7 @@ dir /a /b /-p /o:gen >C:\Users\DELL\Desktop\lisatdo.txt
 start notepad C:\Users\DELL\Desktop\listado.txt
 
 # 1. Use Powershell for folder rename <a named="id2"></a>
-```cmd
+```dos
 PS C:\FolderPath> REN 'OldName.pdf' 'NewName.pdf' --- hit enter for name change
 ```
 You can automatize with an excel table for many files
