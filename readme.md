@@ -28,7 +28,7 @@ Hit enter for name change
 You can automatize with an excel table for many files
 
 
-# 3. Use Powershell for folder rename <a named="id3"></a>
+# 3. Saber la capacidad maxima de memoria admitida por la PC <a named="id3"></a>
 ```dos
 # Windows
 wmic memphysical get MaxCapacity, MemoryDevices
