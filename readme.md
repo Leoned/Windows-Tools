@@ -2,6 +2,7 @@
 ## Index
 1. [Create txt file](#id1)
 2. [Use Powershell for folder rename](#id2)
+3. [Saber la capacidad maxima de memoria admitida por la PC](#id3)
 
 # 1. Create txt file <a named="id1"></a>
 LISTAR ARCHIVOS CON CMD
@@ -25,3 +26,16 @@ PS C:\FolderPath> REN 'OldName.pdf' 'NewName.pdf'
 Hit enter for name change
 
 You can automatize with an excel table for many files
+
+
+# 3. Use Powershell for folder rename <a named="id3"></a>
+```dos
+# Windows
+wmic memphysical get MaxCapacity, MemoryDevices
+
+# Linux
+ubuntu/debian: sudo apt install dmidecode
+arch: sudo pacman -S dmidecode
+Fedora: sudo dnf install dmidecode
+openSUSE: sudo zypper in dmidecode
+```
